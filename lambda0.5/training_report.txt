@@ -1,0 +1,15 @@
+=== Training Report ===
+
+Total timesteps   : 500,000
+Episode length    : 252 days
+CVaR alpha        : 0.05
+CVaR lookback     : 60 days
+Lambda CVaR       : 0.5
+Transaction cost  : 0.001
+Network arch      : [256, 256, 128]
+Learning rate     : 0.0003
+Batch size        : 256
+
+=== Val Results ===
+Mean episode reward : -0.6959
+Best episode reward : -0.6959
